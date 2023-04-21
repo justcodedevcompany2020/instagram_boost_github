@@ -1,3 +1,19 @@
+@font-face {
+  font-family: unisans;
+  src: url("../fonts/Uni Sans Heavy.otf");
+}
+@font-face {
+  font-family: inter;
+  src: url("../fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: IBM Plex Sans;
+  src: url("../fonts/IBMPlexSans-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.ttf");
+}
 .navbar {
   display: flex;
   max-width: 1370px;
@@ -18,13 +34,16 @@
   font-size: 18px;
   line-height: 24px;
   color: white;
+  font-family: "inter";
+  cursor: pointer;
 }
 .navbar .wh p {
   font-style: normal;
   font-weight: 900;
   font-size: 70px;
   line-height: 130%;
-  color: #FFFFFF;
+  font-family: "unisans";
+  color: white;
 }
 .navbar span {
   padding: 1px;
@@ -35,13 +54,15 @@
   background-color: black;
   text-decoration: none;
   border: none;
+  font-family: "inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 22px;
   color: white;
   border-radius: 60px;
-  padding: 16px 54px;
+  padding: 14px 57px;
+  cursor: pointer;
 }
 
 header h1 {
@@ -67,4 +88,109 @@ header h1 {
   font-weight: 600;
   font-size: 14px;
   line-height: 22px;
+  border: none;
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  margin: 60px 0 47px 0;
+  align-items: flex-start;
+  gap: 53px;
+}
+.items .item3 {
+  gap: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.items .item3 .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.items .item3 h3 {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
+.items .item3 p {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.items .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+}
+.items .item .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.items .item h3 {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
+.items .item p {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.vertical-line {
+  border-left: 1px solid white;
+  height: 45px;
+  margin-top: 166px;
+}
+
+@media screen and (max-width: 1335px) {
+  .navbar ul {
+    gap: 90px;
+  }
+  span button {
+    padding: 5px 55px;
+  }
+}
+.how-work {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 62px;
+}
+
+@media screen and (max-width: 1180px) {
+  .navbar ul {
+    gap: 70px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .navbar span button {
+    padding: 9px 30px;
+  }
+  .navbar ul {
+    gap: 50px;
+  }
+  .wh p {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 916px) {
+  .wh p {
+    font-size: 50px;
+  }
 }/*# sourceMappingURL=navbar.css.map */

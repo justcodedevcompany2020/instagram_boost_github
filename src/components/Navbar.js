@@ -14,7 +14,7 @@ function Navbar() {
                 <li>Likes</li>
                 <li>FAQ</li>
                 <span>
-                    <button>Login</button>
+                    <button>Log In</button>
                 </span>
             </ul>
 
