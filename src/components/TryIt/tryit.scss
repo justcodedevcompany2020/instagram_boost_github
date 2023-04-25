@@ -5,6 +5,12 @@
     backdrop-filter: blur(54px);
     background: rgba(255, 255, 255, 0.06);
 
+    box-shadow: 8px 4px 78px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(54px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+
     .try-items {
         padding: 65px 0px 65px 110px;
     }
@@ -35,11 +41,33 @@
         border-radius: 60px;
         padding: 14px 110px;
         text-transform: uppercase;
-        font-family: 'IBM Plex Sans';
+        font-family: 'IBM Plex Sans1';
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
         line-height: 22px;
+        filter: drop-shadow(0 0 30px white);
+        cursor: pointer;
+        transition: .5s;
+        position: relative;
+        overflow: hidden;
 
+        &:hover {
+            scale: 1.05;
+        }
+        &:hover span {
+            left: 150%;
+        }
+
+        // span {
+        //     position: absolute;
+        //     width: 100px;
+        //     height: 200px;
+        //     background: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.3));
+        //     top: 50%;
+        //     transform: translateY(-50%) rotateZ(-40deg);
+        //     left: -50%;
+        //     transition: 1s;
+        // }
     }
 }

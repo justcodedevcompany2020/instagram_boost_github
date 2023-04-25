@@ -17,6 +17,10 @@
     font-family: 'Poppins';
     src: url('../fonts/Poppins-Bold.ttf');
 }
+@font-face {
+    font-family: IBM Plex Sans2;
+    src: url('../fonts/IBMPlexSans-Medium.ttf');
+}
 
 .navbar {
     display: flex;
@@ -100,7 +104,7 @@ header h1 {
     border-radius: 60px;
     padding: 14px 110px;
     text-transform: uppercase;
-    font-family: 'IBM Plex Sans';
+    font-family: 'IBM Plex Sans1';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;

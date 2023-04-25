@@ -103,7 +103,7 @@
         .border {
 
             padding: 1px;
-            border-image: linear-gradient(to right, #6DDCFF, #7F60F9);
+            background: linear-gradient(to right, #6DDCFF, #7F60F9) !important;
             display: flex;
             margin: 30px 0;
             // border-radius: 5px;

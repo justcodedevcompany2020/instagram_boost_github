@@ -8,7 +8,7 @@ function TryIt() {
             <h2>Try it for free</h2>
             <p>Check the quality of the service. <br />
                 Get 5 comments and 10 subscribers for free.</p>
-            <button>Get Started</button>
+            <button>Get Started <span></span></button>
             </div>
         </div>
     )
