@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: IBM Plex Sans;
-    src: url('../fonts/IBMPlexSans-Medium.ttf');
+    src: url('../fonts/IBMPlexSans-Light.ttf');
 }
 @font-face {
     font-family: 'Poppins';
@@ -233,7 +233,7 @@ header h1 {
 }
 
 @media screen and (max-width: 916px) {
-    .wh {
+    .wh {   
         p {
             font-size: 50px;
         }

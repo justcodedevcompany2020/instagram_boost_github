@@ -6,6 +6,8 @@ import TryIt from '../../components/TryIt/TryIt'
 import Likes from '../../components/Likes/Likes'
 import Comments from '../../components/Comments/Comments'
 import Followers from '../../components/Followers/Followers'
+import Faq from '../../components/FAQ/Faq'
+
 
 function Home() {
   return (
@@ -16,6 +18,7 @@ function Home() {
       <Likes/>
       <Comments/>
       <Followers/>
+      <Faq/>
 
     </div>
   )

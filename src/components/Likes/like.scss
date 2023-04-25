@@ -22,6 +22,7 @@
     .like_card {
         border: 1px solid #18181B;
         background: #18181B;
+        border-radius: 5px;
 
 
 
@@ -102,14 +103,14 @@
         .border {
 
             padding: 1px;
-            background: linear-gradient(#6DDCFF, #7F60F9);
+            border-image: linear-gradient(to right, #6DDCFF, #7F60F9);
             display: flex;
             margin: 30px 0;
-            border-radius: 5px;
+            // border-radius: 5px;
 
         }
 
-        ;
+        
 
 
 
@@ -126,7 +127,7 @@
             line-height: 24px;
 
             &:hover {
-                background: linear-gradient(#6DDCFF, #7F60F9);
+                background: linear-gradient(to right,  #7F60F9, #6DDCFF,) !important;
 
             }
         }
@@ -138,7 +139,7 @@
     border-radius: 6px;
     padding: 2px;
     &:hover {
-        background: linear-gradient(#6DDCFF, #7F60F9);
+        background: linear-gradient(to right, #6DDCFF, #7F60F9) !important;
 
     }
 }

@@ -4,7 +4,7 @@
 }
 .cards {
   display: flex;
-  gap: 137px;
+  gap: 120px;
   margin: 81px 0 114px 0px;
 }
 .cards .card1 {
@@ -12,7 +12,7 @@
 }
 .cards .card {
   border: 1px solid white;
-  padding: 41px 25px 25px 25px;
+  padding: 28px 21px 25px 21px;
   background: #F1F5F9;
   border-radius: 20px;
   display: flex;
@@ -28,4 +28,8 @@
   letter-spacing: -0.3px;
   color: black;
   padding: 0 0 0 20px;
+}
+.cards .card p span {
+  background-color: #93C5FD;
+  padding: 0 7px 0 0;
 }/*# sourceMappingURL=cards.css.map */
