@@ -58,7 +58,6 @@
 
     span {
         padding: 1px;
-
         background: linear-gradient(#6DDCFF, #7F60F9);
         border-radius: 60px;
 
@@ -75,7 +74,9 @@
             border-radius: 60px;
             padding: 14px 57px;
             cursor: pointer;
-            // width: 155px    ;
+        }
+        .hamburger{
+            display: none;
         }
     }
 }
@@ -236,5 +237,24 @@ header h1 {
         p {
             font-size: 50px;
         }
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    .navbar{
+        ul{
+            li{
+                display: none;
+            }
+        }
+        
+        .hamburger{
+            display: block;
+        }
+    }
+    header h1{
+            margin: 0 0 52px 45px;
+
     }
 }

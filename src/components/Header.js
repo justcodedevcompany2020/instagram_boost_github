@@ -9,7 +9,7 @@ function Header() {
             <button className='get-started'>Get Started</button>
             <div className='items'>
                 <div className='item'>
-                    <img className='menu-img' src='./images/menu.svg' alt='menu'></img>
+                    <img className='menu-img' src={require('../public/images/menu.png')} alt='menu'></img>
                     <div className='texts'>
                         <h3>User-friendly <br /> interface</h3>
                         <p>Even a novice can <br /> use the service</p>
@@ -17,7 +17,7 @@ function Header() {
                     </div>
                 </div>
                 <div className='vertical-line'></div>                <div className='item'>
-                    <img className='hand-img' src="./images/hand.svg" alt="hand" />
+                    <img className='hand-img' src={require("../public/images/hand.png")} alt="hand" />
                     <div className='texts'>
                         <h3>Legit  and <br /> Safe</h3>
                         <p>We do not use <br /> automated tools. <br />
@@ -27,7 +27,7 @@ function Header() {
                 </div>
                 <div className='vertical-line'></div>
                 <div className='item3 '>
-                    <img className='book-img' src="./images/book.svg" alt="book" />
+                    <img className='book-img' src={require("../public/images/book.png")} alt="book" />
                     <div className='texts'>
                         <h3>High quality</h3>
                         <p>Accounts with avatars <br /> and publications</p>

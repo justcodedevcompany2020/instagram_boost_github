@@ -64,6 +64,9 @@
   padding: 14px 57px;
   cursor: pointer;
 }
+.navbar span .hamburger {
+  display: none;
+}
 
 header h1 {
   margin: 140px 0 60px 0;
@@ -192,5 +195,16 @@ header h1 {
 @media screen and (max-width: 916px) {
   .wh p {
     font-size: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .navbar ul li {
+    display: none;
+  }
+  .navbar .hamburger {
+    display: block;
+  }
+  header h1 {
+    margin: 0 0 52px 45px;
   }
 }/*# sourceMappingURL=navbar.css.map */

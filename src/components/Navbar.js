@@ -1,5 +1,7 @@
 import React from 'react'
 import './navbar.css'
+import {RxHamburgerMenu} from 'react-icons/rx'
+
 
 function Navbar() {
     return (
@@ -14,7 +16,9 @@ function Navbar() {
                 <li>Likes</li>
                 <li>FAQ</li>
                 <span>
-                    <button>Log In</button>
+                    <button className='login'>Log In</button>
+                    <button className='hamburger'><RxHamburgerMenu/></button>
+
                 </span>
             </ul>
 
