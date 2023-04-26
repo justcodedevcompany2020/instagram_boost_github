@@ -1,1 +1,106 @@
-/*# sourceMappingURL=footer.css.map */
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+footer h2 {
+  font-family: "unisans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 130%;
+  /* identical to box height, or 91px */
+  letter-spacing: -0.05em;
+  padding: 23px 0 23px 0;
+}
+footer .footer-items {
+  display: flex;
+  align-items: center;
+  gap: 155px;
+}
+footer .footer-items .icons2 {
+  display: none;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+footer .footer-items .icons2 p:hover {
+  color: #2563EB;
+}
+footer .footer-items h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  padding: 0 0 30px 0;
+}
+footer .footer-items p {
+  font-family: "Poppins";
+  padding: 0 0 30px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #E4E4E7;
+}
+footer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #A1A1AA;
+}
+footer .copyright {
+  display: flex;
+  padding: 70px 0 39px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copyright .icons {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+footer .copyright .icons p:hover {
+  color: #2563EB;
+}
+
+.mob-menu {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .footer-items {
+    display: none !important;
+  }
+  .icons {
+    display: none !important;
+  }
+  .mob {
+    display: flex;
+    justify-content: space-between;
+  }
+  .icons5 {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+  }
+  .icons5 p:hover {
+    color: #2563EB;
+  }
+  .mob-menu {
+    gap: 20px;
+    display: block;
+  }
+  .menu-p {
+    padding: 15px 0 0 0;
+    color: #E4E4E7;
+  }
+  .copyright p {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=footer.css.map */

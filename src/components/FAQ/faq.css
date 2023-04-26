@@ -59,4 +59,26 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 40px;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .hamburger {
+    display: block;
+  }
+  .question-part .ques-text h2 {
+    text-align: start;
+    font-size: 34px;
+    margin-bottom: 60px;
+  }
+  .main-heading h3 {
+    font-size: 16px;
+    line-height: 54px;
+  }
+  .main_div {
+    gap: 25px;
+  }
 }/*# sourceMappingURL=faq.css.map */
