@@ -25,17 +25,17 @@
 .navbar {
   display: flex;
   max-width: 1370px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 20px;
 }
-.navbar ul {
+.navbar .ul {
   display: flex;
   gap: 118px;
   align-items: center;
 }
-.navbar ul li {
+.navbar .ul .li {
   list-style-type: none;
   font-style: normal;
   font-weight: 600;
@@ -166,7 +166,7 @@ header h1 {
 }
 
 @media screen and (max-width: 1335px) {
-  .navbar ul {
+  .navbar .ul {
     gap: 90px;
   }
   span button {
@@ -182,7 +182,7 @@ header h1 {
 }
 
 @media screen and (max-width: 1180px) {
-  .navbar ul {
+  .navbar .ul {
     gap: 70px;
   }
 }
@@ -190,7 +190,7 @@ header h1 {
   .navbar span button {
     padding: 9px 30px;
   }
-  .navbar ul {
+  .navbar .ul {
     gap: 50px;
   }
   .wh p {
@@ -203,7 +203,7 @@ header h1 {
   }
 }
 @media screen and (max-width: 425px) {
-  .navbar ul li {
+  .navbar .ul .li {
     display: none;
   }
   header h1 {

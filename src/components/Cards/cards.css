@@ -13,7 +13,7 @@
 .cards .card {
   border: 1px solid white;
   padding: 28px 21px 25px 21px;
-  background: #F1F5F9;
+  background: #f1f5f9;
   border-radius: 20px;
   display: flex;
   gap: 21px;
@@ -30,6 +30,12 @@
   padding: 0 0 0 20px;
 }
 .cards .card p span {
-  background-color: #93C5FD;
+  background-color: #93c5fd;
   padding: 0 7px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+  .cards {
+    display: none;
+  }
 }/*# sourceMappingURL=cards.css.map */

@@ -59,15 +59,10 @@
             left: 150%;
         }
 
-        // span {
-        //     position: absolute;
-        //     width: 100px;
-        //     height: 200px;
-        //     background: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.3));
-        //     top: 50%;
-        //     transform: translateY(-50%) rotateZ(-40deg);
-        //     left: -50%;
-        //     transition: 1s;
-        // }
+    }
+}
+@media screen and (max-width:425px) {
+    .tryit{
+        display: none;
     }
 }

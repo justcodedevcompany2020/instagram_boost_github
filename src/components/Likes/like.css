@@ -19,9 +19,16 @@
   letter-spacing: -2px;
 }
 .likes .like_card {
-  border: 1px solid #18181B;
-  background: #18181B;
+  border: 1px solid #18181b;
+  background: #18181b;
   border-radius: 5px;
+}
+.likes .like_card p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
 }
 .likes .like_card .points {
   display: flex;
@@ -51,7 +58,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #71717A;
+  color: #71717a;
   padding: 0 0 18px 30px;
 }
 .likes .like_card .carre {
@@ -63,7 +70,7 @@
   padding: 0 65px 31px 35px;
 }
 .likes .like_card .horizontal-line {
-  border-bottom: 1px solid #27272A;
+  border-bottom: 1px solid #27272a;
 }
 .likes .like_card .points {
   display: flex;
@@ -88,12 +95,12 @@
 }
 .likes .like_card .border {
   padding: 1px;
-  background: linear-gradient(to right, #6DDCFF, #7F60F9) !important;
+  background: linear-gradient(to right, #6ddcff, #7f60f9) !important;
   display: flex;
   margin: 30px 0;
 }
 .likes .like_card .free-trial {
-  background: #18181B;
+  background: #18181b;
   border: none;
   color: white;
   border-radius: 5px;
@@ -105,14 +112,14 @@
   line-height: 24px;
 }
 .likes .like_card .free-trial:hover {
-  background: linear-gradient(to right, #7F60F9, #6DDCFF) !important;
+  background: linear-gradient(to right, #7f60f9, #6ddcff) !important;
 }
 
 .box-span {
-  background: #18181B;
+  background: #18181b;
   border-radius: 6px;
   padding: 2px;
 }
 .box-span:hover {
-  background: linear-gradient(to right, #6DDCFF, #7F60F9) !important;
+  background: linear-gradient(to right, #6ddcff, #7f60f9) !important;
 }/*# sourceMappingURL=like.css.map */

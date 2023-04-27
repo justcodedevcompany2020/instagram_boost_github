@@ -52,4 +52,10 @@
 }
 .tryit button:hover span {
   left: 150%;
+}
+
+@media screen and (max-width: 425px) {
+  .tryit {
+    display: none;
+  }
 }/*# sourceMappingURL=tryit.css.map */

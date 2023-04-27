@@ -1,40 +1,46 @@
 @font-face {
-    font-family: 'Poppins';
-    src: url('../../fonts/Poppins-Medium.ttf');
+  font-family: "Poppins";
+  src: url("../../fonts/Poppins-Medium.ttf");
 }
 
 .cards {
+  display: flex;
+  gap: 120px;
+  margin: 81px 0 114px 0px;
+
+  .card1 {
+    gap: 55px !important;
+  }
+
+  .card {
+    border: 1px solid white;
+    padding: 28px 21px 25px 21px;
+    background: #f1f5f9;
+    border-radius: 20px;
     display: flex;
-    gap: 120px;
-    margin: 81px 0 114px 0px;
+    gap: 21px;
+    flex-direction: column;
 
-    .card1 {
-        gap: 55px !important;
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 32px;
+      letter-spacing: -0.3px;
+      color: black;
+      padding: 0 0 0 20px;
+
+      span {
+        background-color: #93c5fd;
+        padding: 0 7px 0 0;
+      }
     }
-
-    .card {
-        border: 1px solid white;
-        padding: 28px 21px 25px 21px;
-        background: #F1F5F9;
-        border-radius: 20px;
-        display: flex;
-        gap: 21px;
-        flex-direction: column;
-
-
-        p {
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 21px;
-            line-height: 32px;
-            letter-spacing: -0.3px;
-            color: black;
-            padding: 0 0 0 20px;
-            span{
-                background-color:  #93C5FD;
-                padding: 0 7px 0 0;
-            }
-        }
+  }
+}
+@media screen and (max-width:425px) {
+    .cards{
+        display: none;
     }
+    
 }
