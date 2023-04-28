@@ -116,4 +116,10 @@
 }
 .box-span:hover {
   background: linear-gradient(#6DDCFF, #7F60F9);
+}
+
+@media screen and (max-width: 425px) {
+  .likes {
+    display: none;
+  }
 }/*# sourceMappingURL=followers.css.map */

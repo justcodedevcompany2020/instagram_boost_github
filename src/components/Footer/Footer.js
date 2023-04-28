@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { BsTwitter } from "react-icons/bs";
 import { SiInstagram, SiGithub } from "react-icons/si";
-import { FaFacebook } from "react-icons/fa";
+import {GrFacebookOption } from "react-icons/gr";
 function Footer() {
   return (
     <footer>
@@ -38,20 +38,18 @@ function Footer() {
         <div className="mob">
           <h3>Company</h3>
           <div className="icons5">
-            <p>
-              <BsTwitter size="1.5rem" />
-            </p>
-            <p>
-              {" "}
-              <FaFacebook size="1.5rem" />
-            </p>
-            <p>
-              <SiInstagram size="1.4rem" />
-            </p>
-            <p>
-              {" "}
-              <SiGithub size="1.4rem" />
-            </p>
+            <div className="icon">
+              <BsTwitter size="1.2rem" />
+            </div>
+            <div className="icon">
+              <GrFacebookOption size="1.2rem" />
+            </div>
+            <div className="icon">
+              <SiInstagram size="1.1rem" />
+            </div>
+            <div className="icon">
+              <SiGithub size="1.1rem" />
+            </div>
           </div>
         </div>
         <p className="menu-p">Trial</p>
@@ -62,20 +60,18 @@ function Footer() {
       <div className="copyright">
         <p>© Copyright 2022, All Rights Reserved by ClarityUI</p>
         <div className="icons">
-          <p>
-            <BsTwitter size="1.5rem" />
-          </p>
-          <p>
-            {" "}
-            <FaFacebook size="1.5rem" />
-          </p>
-          <p>
-            <SiInstagram size="1.4rem" />
-          </p>
-          <p>
-            {" "}
-            <SiGithub size="1.4rem" />
-          </p>
+          <div className="icon">
+            <BsTwitter size="1.2rem" />
+          </div>
+          <div className="icon">
+            <GrFacebookOption size="1.2rem" />
+          </div>
+          <div className="icon">
+            <SiInstagram size="1.1rem" />
+          </div>
+          <div className="icon">
+            <SiGithub size="1.1rem" />
+          </div>
         </div>
       </div>
     </footer>

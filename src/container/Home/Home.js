@@ -8,7 +8,7 @@ import Comments from "../../components/Comments/Comments";
 import Followers from "../../components/Followers/Followers";
 import Faq from "../../components/FAQ/Faq";
 import TryitMob from "../../components/TryIt/Tryit-mob";
-
+import Sliders from "../../components/Slider/Slider"
 function Home() {
   return (
     <div className="homepage">
@@ -17,6 +17,7 @@ function Home() {
       <TryIt />
       <TryitMob/>
       <Likes />
+      <Sliders/>
       <Comments />
       <Followers />
       <Faq />

@@ -11,7 +11,7 @@
   src: url("../fonts/IBMPlexSans-Light.ttf");
 }
 @font-face {
-  font-family: Poppins;
+  font-family: Popins;
   src: url("../fonts/Poppins-Bold.ttf");
 }
 @font-face {
@@ -91,7 +91,7 @@ header h1 {
   border-radius: 60px;
   padding: 14px 110px;
   text-transform: uppercase;
-  font-family: "IBM Plex Sans1";
+  font-family: "IBM Plex Sans2";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -165,14 +165,6 @@ header h1 {
   margin-top: 166px;
 }
 
-@media screen and (max-width: 1335px) {
-  .navbar .ul {
-    gap: 90px;
-  }
-  span button {
-    padding: 5px 55px;
-  }
-}
 .how-work {
   font-family: "Poppins";
   font-style: normal;

@@ -125,7 +125,7 @@
       line-height: 24px;
 
       &:hover {
-        background: linear-gradient(to right, #7f60f9, #6ddcff) !important;
+        background: linear-gradient(to right,  #6ddcff , #7f60f9,) !important;
       }
     }
   }
@@ -138,4 +138,11 @@
   &:hover {
     background: linear-gradient(to right, #6ddcff, #7f60f9) !important;
   }
+}
+
+@media screen and (max-width: 425px) {
+  .likes{
+    display: none;
+  }
+  
 }

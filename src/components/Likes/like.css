@@ -112,7 +112,7 @@
   line-height: 24px;
 }
 .likes .like_card .free-trial:hover {
-  background: linear-gradient(to right, #7f60f9, #6ddcff) !important;
+  background: linear-gradient(to right, #6ddcff, #7f60f9) !important;
 }
 
 .box-span {
@@ -122,4 +122,10 @@
 }
 .box-span:hover {
   background: linear-gradient(to right, #6ddcff, #7f60f9) !important;
+}
+
+@media screen and (max-width: 425px) {
+  .likes {
+    display: none;
+  }
 }/*# sourceMappingURL=like.css.map */

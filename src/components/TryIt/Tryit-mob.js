@@ -5,7 +5,6 @@ function TryitMob() {
   return (
     <div className="try-mob">
       <h2>Try for free</h2>
-      <span className='box-span'>
       <div className="like_card">
         <h4>1000</h4>
         <p className="p">
@@ -46,7 +45,6 @@ function TryitMob() {
           </span>
         </div>
       </div>
-      </span>
     </div>
   );
 }

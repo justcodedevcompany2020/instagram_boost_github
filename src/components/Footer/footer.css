@@ -19,23 +19,24 @@ footer .footer-items {
   align-items: center;
   gap: 155px;
 }
-footer .footer-items .icons2 {
+footer .footer-items .icons {
   display: none;
   display: flex;
   gap: 23px;
   align-items: center;
 }
-footer .footer-items .icons2 p:hover {
+footer .footer-items .icons .icon:hover {
   color: #2563EB;
 }
 footer .footer-items h3 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: -0.2px;
   padding: 0 0 30px 0;
+  cursor: pointer;
 }
 footer .footer-items p {
   font-family: "Poppins";
@@ -45,6 +46,7 @@ footer .footer-items p {
   font-size: 14px;
   line-height: 22px;
   color: #E4E4E7;
+  cursor: pointer;
 }
 footer p {
   font-family: "Poppins";
@@ -53,6 +55,7 @@ footer p {
   font-size: 14px;
   line-height: 22px;
   color: #A1A1AA;
+  cursor: pointer;
 }
 footer .copyright {
   display: flex;
@@ -64,9 +67,16 @@ footer .copyright .icons {
   display: flex;
   gap: 23px;
   align-items: center;
+  margin-right: 50px;
 }
-footer .copyright .icons p:hover {
-  color: #2563EB;
+footer .copyright .icons .icon:hover {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  background-color: #2563EB;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .mob-menu {
@@ -89,7 +99,7 @@ footer .copyright .icons p:hover {
     gap: 23px;
     align-items: center;
   }
-  .icons5 p:hover {
+  .icons5 .icon:hover {
     color: #2563EB;
   }
   .mob-menu {
