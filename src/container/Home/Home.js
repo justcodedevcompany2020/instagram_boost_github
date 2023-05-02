@@ -8,18 +8,24 @@ import Comments from "../../components/Comments/Comments";
 import Followers from "../../components/Followers/Followers";
 import Faq from "../../components/FAQ/Faq";
 import TryitMob from "../../components/TryIt/Tryit-mob";
-import Sliders from "../../components/Slider/Slider"
+import LikeSlider from "../../components/Likes/LikeSlider";
+import CommentSlider from "../../components/Comments/CommentSlider";
+import FollowerSlider from "../../components/Followers/FollowerSlider";
+import CardSlider from "../../components/Cards/CardSlider";
 function Home() {
   return (
     <div className="homepage">
       <Header />
       <Cards />
+      <CardSlider/>
       <TryIt />
       <TryitMob/>
       <Likes />
-      <Sliders/>
+      <LikeSlider/>
       <Comments />
+      <CommentSlider/>
       <Followers />
+      <FollowerSlider/>
       <Faq />
     </div>
   );

@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+}
+
+.swiper-button-next {
+  display: none !important;
+}
+
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: linear-gradient(98.24deg, #6ddcff 0%, #7f60f9 100%);
+}
+
+.swiper-pagination-bullet-active {
+  background: linear-gradient(98.24deg, #6ddcff 0%, #7f60f9 100%) !important;
+}
+
+.price {
+  font-family: "IBM Plex Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 60px !important;
+  line-height: 66px !important;
+  color: white !important;
+}
+
+.slide-h4 {
+  font-family: "IBM Plex Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 30px !important;
+}
+
+.container {
+  width: 100% !important;
+  height: 35em !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, -3px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+}
+
+.swiper-h2 {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .border2 {
+    padding: 1px;
+    background: linear-gradient(to right, #6ddcff, #7f60f9) !important;
+    display: flex;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin: 0 20px 0 0px;
+  }
+  .border2 .free-trial2 {
+    width: 100%;
+    background: #18181b;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 36px;
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .border2 .free-trial2:hover {
+    background: linear-gradient(to right, #7f60f9, #6ddcff) !important;
+  }
+  .swiper-h2 {
+    display: block;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 62px;
+    margin: 50px 0 30px 0;
+  }
+}
+.carts {
+  border: 1px solid #18181b;
+  background: #18181b;
+  border-radius: 5px;
+  padding: 20px 0 30px 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+.carts .points {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.carts .carre {
+  padding: 10px 0 10px 0 !important;
+}
+
+.swiper {
+  margin: 10px 0;
+}/*# sourceMappingURL=likeslider.css.map */

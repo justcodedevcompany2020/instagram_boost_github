@@ -1,0 +1,37 @@
+.card {
+  border: 1px solid white !important;
+  padding: 28px 21px 25px 21px !important;
+  background: #f1f5f9 !important;
+  border-radius: 20px;
+  display: flex;
+  gap: 21px;
+  flex-direction: column;
+}
+.card p {
+  color: black;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 10px 0 0 0;
+}
+.card p span {
+  background-color: #93c5fd;
+  padding: 0 7px 0 0;
+}
+
+.card2 {
+  padding: 28px 30px 0 30px;
+}
+
+.card {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    display: block;
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=cardslider.css.map */

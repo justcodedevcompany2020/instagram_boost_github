@@ -71,7 +71,7 @@
   }
   .question-part .ques-text h2 {
     text-align: start;
-    font-size: 34px;
+    font-size: 40px;
     margin-bottom: 60px;
   }
   .main-heading h3 {
@@ -79,6 +79,13 @@
     line-height: 54px;
   }
   .main_div {
-    gap: 25px;
+    gap: 20px;
   }
+  .main-heading-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+.carts {
+  width: 100px;
 }/*# sourceMappingURL=faq.css.map */

@@ -125,7 +125,13 @@ footer {
 
         .icon {
             &:hover {
-                color: #2563EB;
+                display: flex;
+                width: 28px;
+                height: 28px;
+                 background-color:#2563EB;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
             }
         }
     }

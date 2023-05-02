@@ -17,7 +17,7 @@ function TryitMob() {
         <div className="points">
           <div className="one-item">
             <img src={require("../../public/images/Icon1.png")} alt="" />
-            <p>Full Access to Landingfolio</p>
+            <p>Full Access </p>
             <img src={require("../../public/images/Icon.png")} alt="" />
           </div>
           <div className="one-item">
